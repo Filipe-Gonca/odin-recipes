@@ -1,0 +1,26 @@
+body {
+    background-color: #2C3639;
+}
+
+h1, h2, p {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+h1 {
+    color: #A27B5C;
+}
+
+h2, p {
+    color: #DCD7C9;
+}
+
+a {
+    color: inherit;
+}
+
+/*Removing bullets of lists and adding the custom ones*/
+
+li::marker {
+    color: #DCD7C9;
+  }
+
